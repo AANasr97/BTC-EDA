@@ -51,7 +51,7 @@ Our journey promises to unveil:
 
 ## Timeline 🗓️
 
-The epic journey is expected to last for 2 weeks, with milestones marking our progress in data collection, cleaning, analysis, and reporting.
+The project is estimated to be completed by 11/10/2023, and it will be a two-week endeavor, marked by significant milestones in data collection, cleaning, analysis, and reporting.
 
 ## Budget 💰
 
