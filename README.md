@@ -23,6 +23,10 @@ For this exciting journey, we'll harness the power of historical BTC price data 
 - `low`: Lowest price during a given time period.
 - `volume`: Trading volume.
 
+This dataset contains the historical trading data (OHLC) 1 minute resolution reaching back until the year 2013. It was collected from the Bitfinex exchange as described in [this article](https://medium.com/coinmonks/how-to-get-historical-crypto-currency-data-954062d40d2d).
+
+The data in the CSV file is the raw output of the Bitfinex API. This means, there are no timestamps for time periods in which the exchange was down. Also if there were time periods without any activity or trades there will be no timestamp as well.
+
 ## Methodology 🧪
 
 Our adventure comprises the following stages:
