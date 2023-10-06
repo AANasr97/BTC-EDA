@@ -1,8 +1,6 @@
 
 import streamlit as st
 import pandas as pd
-import pandas_datareader
-import pandas_datareader.data as web
 import numpy as np
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
