@@ -19,7 +19,6 @@ from statsmodels.tsa.stattools import adfuller
 from mplfinance.original_flavor import candlestick_ohlc
 # Set the theme to 'seaborn' for a visually appealing style
 sns.set()
-plt.style.use('seaborn')
 # Format numbers to display normally
 pd.options.display.float_format = '{:,.4f}'.format
 
