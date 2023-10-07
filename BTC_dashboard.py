@@ -58,8 +58,21 @@ def introduction():
     st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
     st.write("Welcome to the Bitcoin Exploratory Data Analysis (EDA) and Trading Analysis dashboard.")
     
-    image = Image.open("BTC.jpeg")
-    st.image(image, use_column_width=True)
+
+    # Load the images
+    image1 = Image.open("BTC.jpeg")
+    image2 = Image.open("BTC2.jpeg")
+
+    # Define the column layout
+    col1, col2 = st.columns(2)
+
+    # Display the images with adjusted size
+    with col1:
+        st.image(image1, use_column_width=True, caption="BTC")
+
+    with col2:
+        st.image(image2, use_column_width=True, caption="BTC")
+    
     
     # Objective
     st.header("Objective")
@@ -79,9 +92,6 @@ def introduction():
     st.header("Navigation")
     st.write("Use the navigation menu on the left to explore different sections of the dashboard. You can start with data exploration, delve into trading strategies, and find additional information about Bitcoin.")
     
-    st.write("---")  # Add a separator between the introduction and the rest of the content
-    image = Image.open("BTC2.jpeg")
-    st.image(image, use_column_width=True)
     st.write("---")  # Add a separator between the introduction and the rest of the content
 
     # Introduction to Bitcoin
