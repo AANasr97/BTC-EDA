@@ -1,4 +1,4 @@
-
+import gzip
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -138,7 +138,8 @@ def explore_data():
     
     
     # Load your original BTC data and resampled DataFrames here
-    BTC = pd.read_csv('btcusd.csv')
+    with gzip.open('btcusd.csv.gz', 'rb') as f:
+        BTC = pd.read_csv(f)
     st.write("---")
     # Create an expander to show expected columns and file uploader
     with st.expander("Upload and Check File Or ignore to explore BTC data"):
@@ -861,7 +862,8 @@ def explore_data():
 
 def trading_strategies(): 
 ################################################################################################################################################################
-    BTC = pd.read_csv('btcusd.csv')
+    with gzip.open('btcusd.csv.gz', 'rb') as f:
+        BTC = pd.read_csv(f)
     # Convert milliseconds to seconds by dividing by 1000 and apply to the 'time' column
     BTC['time'] = BTC['time'] / 1000
     # Convert to a human-readable date and time format
