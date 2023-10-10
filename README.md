@@ -65,15 +65,9 @@ Our journey demands only modest financial resources, primarily covering data sub
 
 Embarking on this adventure to explore BTC price data is vital for informed decision-making and deciphering the cryptocurrency market. The insights and recommendations we uncover will be invaluable to our stakeholders. We humbly seek approval to embark on this epic journey, promising to provide regular updates on our progress.
 
-## Approval Requested 🙏
-
-We kindly request the formal approval of our esteemed instructor, Eng. AbdElRahman, to set sail on this captivating voyage of BTC price data Exploratory Data Analysis (EDA). Your wisdom and guidance will be the wind in our sails as we navigate this exciting educational journey, delivering valuable insights through our analysis.
-
-Should you have any inquiries or require further information regarding this project, we stand ready to provide them. Your approval will illuminate our path and empower us to chart this data-driven course.
-
-Thank you for considering our request.
-
 _____
 [Link to My Streamlit Dashboard](https://btc-eda.streamlit.app/)
+_____
+[Link to My PowerPoint Presentation](https://1drv.ms/p/s!AvSpVbC_XNbihQ_H67Ugl1cZGK3I?e=EDgRRo)
 _____
 **Eng. Ahmed NasrElDin** 🌟
